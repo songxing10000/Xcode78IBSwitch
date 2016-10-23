@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
+        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10117"/>
     </dependencies>
     <scenes>
@@ -775,7 +776,7 @@
                                                             <constraints>
                                                                 <constraint firstItem="ROz-0a-qfx" firstAttribute="top" secondItem="XlJ-40-pEX" secondAttribute="top" id="4OP-h9-Y3p"/>
                                                                 <constraint firstAttribute="trailing" secondItem="ROz-0a-qfx" secondAttribute="trailing" id="5Tr-fm-gwi"/>
-                                                                <constraint firstItem="ROz-0a-qfx" firstAttribute="leading" secondItem="XlJ-40-pEX" secondAttribute="leading" id="KgR-Lj-QRP"/>
+                                                                <constraint firstItem="ROz-0a-qfx" firstAttribute="leading" secondItem="XlJ-40-pEX" secondAttribute="leading" constant="4" id="KgR-Lj-QRP"/>
                                                                 <constraint firstAttribute="bottom" secondItem="ROz-0a-qfx" secondAttribute="bottom" id="ypl-pk-t74"/>
                                                             </constraints>
                                                             <connections>
@@ -812,7 +813,7 @@
                                                             </subviews>
                                                             <constraints>
                                                                 <constraint firstAttribute="trailing" secondItem="YTs-2T-zlF" secondAttribute="trailing" id="GQl-ai-rw8"/>
-                                                                <constraint firstItem="YTs-2T-zlF" firstAttribute="leading" secondItem="DrY-7X-w6q" secondAttribute="leading" constant="2" id="nVS-v1-hjn"/>
+                                                                <constraint firstItem="YTs-2T-zlF" firstAttribute="leading" secondItem="DrY-7X-w6q" secondAttribute="leading" constant="4" id="nVS-v1-hjn"/>
                                                                 <constraint firstItem="YTs-2T-zlF" firstAttribute="top" secondItem="DrY-7X-w6q" secondAttribute="top" id="tvX-D4-5hg"/>
                                                                 <constraint firstAttribute="bottom" secondItem="YTs-2T-zlF" secondAttribute="bottom" id="weA-vn-J1R"/>
                                                             </constraints>
