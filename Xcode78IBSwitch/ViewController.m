@@ -183,7 +183,10 @@
                 alert.messageText = error.localizedDescription;
                 [alert addButtonWithTitle:@"好的"];
                 alert.alertStyle = NSWarningAlertStyle;
-                [alert runModal];
+                [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+                    
+                    [alert runModal];
+                }];
             }
         }];
     }];

@@ -686,8 +686,8 @@
                                     <outlet property="delegate" destination="XfG-lQ-9wD" id="ZSs-Gs-V8c"/>
                                 </connections>
                             </pathControl>
-                            <button verticalHuggingPriority="750" misplaced="YES" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jkq-U4-pgD">
-                                <rect key="frame" x="20" y="355" width="109" height="17"/>
+                            <button verticalHuggingPriority="750" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jkq-U4-pgD">
+                                <rect key="frame" x="20" y="355" width="120" height="17"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="120" id="Gra-E4-6WK"/>
                                 </constraints>
